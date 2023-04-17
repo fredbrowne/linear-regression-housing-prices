@@ -12,7 +12,7 @@ The dataset used in this project is the California Housing Prices dataset, which
 
 To set up the environment and install the required libraries, follow these steps:
 
-1. Install Python 3.7 or higher from https://www.python.org/downloads/
+1. Install Python 3.7 or higher
 2. Create a virtual environment:
 
 ```bash
@@ -21,14 +21,17 @@ source ml_project_1/bin/activate  # On Windows, use `ml_project_1\Scripts\activa
 ```
 
 3. Install the required libraries:
-`pip install numpy pandas scikit-learn matplotlib`
-
+```bash
+pip install numpy pandas scikit-learn matplotlib
+```
 ## Usage
 
 1. Download the California Housing Prices dataset from the link provided above and extract the 'housing.csv' file into the project folder.
 2. Run the linear_regression.py script to train the linear regression model and evaluate its performance:
 
-`python linear_regression.py`
+```bash
+python linear_regression.py
+```
 
 This will output the Mean Squared Error (MSE) and R^2 score of the model, as well as display a plot of the actual and predicted housing prices.
 
@@ -42,6 +45,8 @@ pip install jupyter
 
 Then, launch the Jupyter Notebook server:
 
-`jupyter notebook`
+```bash
+jupyter notebook
+```
 
 Open the `linear_regression_california_housing.ipynb` notebook in the browser, and you can interactively run the code, modify it, and see the results.
