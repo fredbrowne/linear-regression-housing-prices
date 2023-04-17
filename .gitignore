@@ -1,0 +1,32 @@
+# .gitignore
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+.Python
+env/
+venv/
+*.egg-info/
+dist/
+build/
+*.so
+*.log
+
+# Jupyter Notebook artifacts
+.ipynb_checkpoints/
+
+# OS-specific artifacts
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE-specific artifacts
+.vscode/
+.pytest_cache/
+.idea/
